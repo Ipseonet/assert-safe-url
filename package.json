@@ -1,0 +1,49 @@
+{
+  "name": "@ipseonet/assert-safe-url",
+  "version": "1.0.0",
+  "description": "Zero-dependency SSRF guard: reject server-side fetches to private, loopback, link-local, CGNAT, and cloud-metadata addresses.",
+  "keywords": [
+    "ssrf",
+    "security",
+    "url",
+    "validation",
+    "fetch",
+    "dns",
+    "metadata",
+    "cloud-metadata",
+    "private-ip"
+  ],
+  "license": "MIT",
+  "author": "IPSEONET LLC",
+  "homepage": "https://github.com/ipseonet/assert-safe-url#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipseonet/assert-safe-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ipseonet/assert-safe-url/issues"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
