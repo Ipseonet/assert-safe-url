@@ -15,13 +15,13 @@
   ],
   "license": "MIT",
   "author": "IPSEONET LLC",
-  "homepage": "https://github.com/ipseonet/assert-safe-url#readme",
+  "homepage": "https://github.com/Ipseonet/assert-safe-url#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ipseonet/assert-safe-url.git"
+    "url": "git+https://github.com/Ipseonet/assert-safe-url.git"
   },
   "bugs": {
-    "url": "https://github.com/ipseonet/assert-safe-url/issues"
+    "url": "https://github.com/Ipseonet/assert-safe-url/issues"
   },
   "type": "commonjs",
   "main": "index.js",
