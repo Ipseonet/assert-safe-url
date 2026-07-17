@@ -1,6 +1,6 @@
 {
   "name": "@ipseonet/assert-safe-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency SSRF guard: reject server-side fetches to private, loopback, link-local, CGNAT, and cloud-metadata addresses.",
   "keywords": [
     "ssrf",
